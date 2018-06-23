@@ -1,0 +1,11 @@
+#!/bin/sh
+# move the mouse slightly every 60 seconds, to stop the screen from turning off
+# jes 2018
+
+echo Jiggling...
+
+while true
+do
+    xdotool mousemove_relative 1 -1
+    sleep 60
+done
